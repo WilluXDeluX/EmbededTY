@@ -7,3 +7,5 @@
  
  Note:
  This will only work for videos that allow embedding.
+ 
+ Link here: https://willuxdelux.github.io/EmbededYT/
