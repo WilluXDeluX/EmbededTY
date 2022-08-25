@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+		<link rel="icon" href="images/icon.png" />
+		<title>Embedded Player</title>
+		<script src="js/xhr.js"></script>
+		<script src="js/changeVid.js"></script>
+	</head>
+	
+	<body>
+	<div class="container">
+		<div class="enter-link">
+				<label>Feel free to enter normal url or embed links</label>
+				<input class="box" type="url" name="url" id="url" placeholder="https://www.youtube.com/watch?v=jfKfPfyJRdk" pattern="https?://.+">
+				<input class="btns" type="button" value="Submit Link" onClick="checkLink('vidCon', url.value)">
+				
+		</div>
+		<div class="embed-responsive">
+			<iframe class="vidCon" id="vidCon" width="1366" height="768" src="https://www.youtube.com/embed/jfKfPfyJRdk?autoplay=1"" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		</div>
+	</body>
+</html>
