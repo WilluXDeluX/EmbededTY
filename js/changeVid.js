@@ -16,5 +16,6 @@ function checkLink(respDiv, url){
 }
 
 function setURL(obj, url){
-	obj.src = url+"?autoplay=1";
+	//old code obj.src = url+"?autoplay=1";
+	obj.src = url;
 }
