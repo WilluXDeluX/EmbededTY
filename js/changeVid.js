@@ -3,7 +3,8 @@
 function checkLink(respDiv, url){
 	var obj = document.getElementById(respDiv);
 	if(url.includes("watch")){
-		var res = url.replace("watch?v=","embed/");
+		var res = url.split('&')[0]
+		res = res.replace("watch?v=","embed/");
 		setURL(obj, res)
 	}
 	else if (url.includes("embed")){
