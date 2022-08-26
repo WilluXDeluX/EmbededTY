@@ -1,4 +1,4 @@
-# EmbededTY
+# EmbededYT
  This is a simple page with Embedded Youtube player
 
  Have you ever been sick of live chats in Youtube live and do not want it to keep sending and receiving data?
@@ -7,3 +7,5 @@
  
  Note:
  This will only work for videos that allow embedding.
+ 
+ Link here: https://willuxdelux.github.io/EmbededYT/
