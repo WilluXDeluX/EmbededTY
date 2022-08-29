@@ -1,5 +1,3 @@
-
-
 function checkLink(respDiv, url){
 	var obj = document.getElementById(respDiv);
 	if(url.includes("watch")){

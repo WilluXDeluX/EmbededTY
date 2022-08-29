@@ -10,6 +10,7 @@
 		<title>Embedded Player</title>
 		<script src="js/xhr.js"></script>
 		<script src="js/changeVid.js"></script>
+		<script src="js/triggers.js" defer></script>
 	</head>
 	
 	<body>
@@ -17,8 +18,7 @@
 		<div class="enter-link">
 				<label>Youtube video url or embed links here: &nbsp;</label>
 				<input class="box" type="url" name="url" id="url" placeholder="https://www.youtube.com/watch?v=jfKfPfyJRdk" pattern="https?://.+">
-				<input class="btns" type="button" value="Submit" onClick="checkLink('vidCon', url.value)">
-				
+				<input class="btns" type="button" value="Submit" id="submit" onClick="checkLink('vidCon', url.value)">
 		</div>
 		<div class="embed-responsive">
 			<iframe class="vidCon" id="vidCon" width="1366" height="768" src="https://www.youtube.com/embed/jfKfPfyJRdk?autoplay=1"" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
